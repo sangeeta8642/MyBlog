@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Styles from './Home.module.css'
 import React from 'react'
 
-
 const Home = () => {
   return (
     <div className={Styles.container}>
@@ -10,8 +9,10 @@ const Home = () => {
         <h1 className={Styles.title}>
           Creative Thought Agency
         </h1>
-        <p className={Styles.desc}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever </p>
+        <p className={Styles.desc}>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry&apos;s standard dummy text ever
+        </p>
         <div className={Styles.buttons}>
           <button className={Styles.button}>Learn More</button>
           <button className={Styles.button}>Contact</button>
