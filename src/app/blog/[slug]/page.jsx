@@ -16,20 +16,20 @@ const SinglePostPage = async ({ params }) => {
    
   const {slug}= params
 
-  const getPost2=async () => {
-    try {
-      const post = await fetch(`http://localhost:3000/api/posts/${slug}`)
-      return post.json()
-    } catch (error) {
-      console.log(error);
+  // const getPost2=async () => {
+  //   try {
+  //     const post = await fetch(`http://localhost:3000/api/posts/${slug}`)
+  //     return post.json()
+  //   } catch (error) {
+  //     console.log(error);
       
-    }
-  }
+  //   }
+  // }
   // console.log(params.slug);
 
 
 
-  const post = await getPost2();
+  const post = await getPost();
   const user = await getUser(post.userId);
   // console.log(post.createdAt);
 
