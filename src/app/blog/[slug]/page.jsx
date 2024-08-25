@@ -12,9 +12,9 @@ export const generateMetadata=async ({params}) => {
   }
 }
 
-const SinglePostPage = async ({ params }) => {
-   
-  const {slug}= params
+const SinglePostPage = async () => {
+  // { params }
+  // const {slug}= params
 
   // const getPost2=async () => {
   //   try {
