@@ -6,7 +6,7 @@ import { login } from "@/lib/action";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const loginFrom = () => {
+const LoginFrom = () => {
   const [state, formAction] = useFormState(login, undefined);
   const router = useRouter();
 
@@ -27,4 +27,4 @@ const loginFrom = () => {
   );
 };
 
-export default loginFrom;
+export default LoginFrom;

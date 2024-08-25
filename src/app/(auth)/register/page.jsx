@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./register.module.css";
 import RegisterFrom from "@/components/registerFrom/registerFrom";
 
-const registerPage = () => {
+const RegisterPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
@@ -13,4 +13,4 @@ const registerPage = () => {
   );
 };
 
-export default registerPage;
+export default RegisterPage;

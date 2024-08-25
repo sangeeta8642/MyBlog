@@ -3,7 +3,7 @@ import styles from "./postCard.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-const postCard = ({ post }) => {
+const PostCard = ({ post }) => {
   // console.log(post.createdAt);
 
   return (
@@ -41,4 +41,4 @@ const postCard = ({ post }) => {
   );
 };
 
-export default postCard;
+export default PostCard;

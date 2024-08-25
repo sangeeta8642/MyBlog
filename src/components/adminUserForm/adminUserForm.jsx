@@ -4,7 +4,7 @@ import styles from "./adminUserForm.module.css";
 import { addUser } from "@/lib/action";
 import { useFormState } from "react-dom";
 
-function adminUserForm() {
+function AdminUserForm() {
 
   // const {userId} = params
   const [state, formAction] = useFormState(addUser, undefined);
@@ -28,4 +28,4 @@ function adminUserForm() {
   );
 }
 
-export default adminUserForm;
+export default AdminUserForm;

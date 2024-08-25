@@ -4,7 +4,7 @@ import styles from "./adminPostForm.module.css";
 import { addPost } from "@/lib/action";
 import { useFormState } from "react-dom";
 
-function adminPostForm({userId}) {
+function AdminPostForm({userId}) {
 
   // const {userId} = params
   const [state, formAction] = useFormState(addPost, undefined);
@@ -23,4 +23,4 @@ function adminPostForm({userId}) {
   );
 }
 
-export default adminPostForm;
+export default AdminPostForm;

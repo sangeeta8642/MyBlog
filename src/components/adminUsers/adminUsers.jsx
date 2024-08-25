@@ -4,7 +4,7 @@ import { getUsers } from '@/lib/data'
 import Image from 'next/image'
 import { deleteUser } from '@/lib/action'
 
-const adminUsers = async () => {
+const AdminUsers = async () => {
 const users = await getUsers()
 
   return (
@@ -31,4 +31,4 @@ const users = await getUsers()
   )
 }
 
-export default adminUsers
+export default AdminUsers

@@ -6,7 +6,7 @@ import { register } from "@/lib/action";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const registerFrom = () => {
+const RegisterFrom = () => {
   const [state, formAction] = useFormState(register, undefined);
   const router = useRouter();
 
@@ -33,4 +33,4 @@ const registerFrom = () => {
   );
 };
 
-export default registerFrom;
+export default RegisterFrom;
