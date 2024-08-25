@@ -53,7 +53,7 @@ const SinglePostPage = async ({ params }) => {
             className={styles.avatar}
             width={50}
             height={50}
-            alt=""
+            alt="avatar"
             // src="https://images.pexels.com/photos/14675462/pexels-photo-14675462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             src={user.img?user.img:"/noavatar.png"}
           />

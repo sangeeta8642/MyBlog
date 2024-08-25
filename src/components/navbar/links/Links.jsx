@@ -49,7 +49,7 @@ const Links = ({session}) => {
         )}
       </div>
       {/* <button className={Styles.menuBtn} >Menu</button> */}
-      <Image src='/menu.png' alt="" className={Styles.menuBtn} width={30} height={30} onClick={() => setOpen(!open)}/>
+      <Image src='/menu.png' alt="hamburger" className={Styles.menuBtn} width={30} height={30} onClick={() => setOpen(!open)}/>
       {open && (
         <div className={Styles.mobileLinks}>
           {links.map((link) => (
